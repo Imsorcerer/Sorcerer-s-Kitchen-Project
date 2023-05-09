@@ -1,0 +1,213 @@
+                                      <!--Final Sorcerer's Kitchen -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sorcerer's Kitchen</title>
+    <link rel="icon rounded"
+        href="https://images.pexels.com/photos/4551832/pexels-photo-4551832.jpeg?auto=compress&cs=tinysrgb&w=400">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <script defer src="prac3.js"></script>
+
+    <link rel="stylesheet" href="prac3.css"/>
+    
+  </head>
+  <body background="https://images.pexels.com/photos/4551832/pexels-photo-4551832.jpeg?auto=compress&cs=tinysrgb&w=1400">
+    <!-- component -->
+    <div class="relative w-full">
+      <nav class="fixed z-10 w-full bg-white md:absolute md:bg-transparent">
+        <div class="container m-auto px-2 md:px-12 lg:px-7">
+          <div
+            class="flex flex-wrap items-center justify-between py-3 gap-6 md:py-4 md:gap-0"
+          >
+            <div class="w-full px-6 flex justify-between lg:w-max md:px-0">
+              <a
+                href="https://tailus.io/blocks/hero-section"
+                aria-label="logo"
+                class="flex space-x-2 items-center"
+              >
+                <img
+                 class="h-9 rounded "
+                 src="https://images.pexels.com/photos/4551832/pexels-photo-4551832.jpeg?auto=compress&cs=tinysrgb&w=400"
+                 alt="Sorcerer's Kitchen">
+                  
+               
+                <span class="text-3xl font-bold text-orange-800">Sorcerer's Kitchen™</span>
+              
+              </a>
+
+              <button
+                aria-label="humburger"
+                id="hamburger"
+                class="relative w-10 h-10 -mr-2 lg:hidden"
+              >
+                <div
+                  aria-hidden="true"
+                  id="line"
+                  class="inset-0 w-6 h-0.5 m-auto rounded bg-yellow-900 transtion duration-300"
+                ></div>
+                <div
+                  aria-hidden="true"
+                  id="line2"
+                  class="inset-0 w-6 h-0.5 mt-2 m-auto rounded bg-yellow-900 transtion duration-300"
+                ></div>
+              </button>
+            </div>
+
+            <div
+              class="hidden w-full lg:flex flex-wrap justify-end items-center space-y-6 p-6 rounded-xl bg-white md:space-y-0 md:p-0 md:flex-nowrap md:bg-transparent lg:w-7/12"
+            >
+              <div class="text-gray-600 lg:pr-4">
+                <ul
+                  class="space-y-6 tracking-wide font-medium text-sm md:flex md:space-y-0"
+                >
+                  <li>
+                    <a
+                      href="aboutus3.html"
+                      class="block md:px-4 transition hover:text-violet-700"
+                    >
+                      <span>About Us</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="block md:px-4 transition hover:text-violet-700"
+                    >
+                      <span>Contact Us</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="block md:px-4 transition hover:text-violet-700"
+                    >
+                      <span>Wishlist</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="block md:px-4 transition hover:text-violet-700"
+                    >
+                      <span>Cart</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+
+              <div
+                class="w-full space-y-2 border-yellow-200 lg:space-y-0 md:w-max lg:border-l"
+              >
+                <button
+                  type="button"
+                  title="Sign-Up"
+                  class="w-full py-3 px-6 text-center rounded-full transition active:bg-pink-200 focus:bg-pink-100 sm:w-max"
+                >
+                  <span class="block text-slate-800 font-semibold text-sm hover:text-violet-700">
+                    Sign up
+                  </span>
+                </button>
+                <button
+                  type="button"
+                  title="Login"
+                  class="w-full py-3 px-6 text-center rounded-full transition bg-pink-400 hover:bg-violet-300 active:bg-pink-400 focus:bg-violet-300 sm:w-max"
+                >
+                  <span class="block text-yellow-900 font-semibold text-sm">
+                    Login
+                  </span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div class="relative ">
+        <div
+          class="container m-auto px-6 pt-32 md:px-12 lg:pt-[4.8rem] lg:px-7"
+        >
+          <div class="flex items-center flex-wrap px-2 md:px-0">
+            <div class="relative lg:w-6/12 lg:py-24 xl:py-32">
+              <h1
+                class="font-bold text-6xl text-yellow-900 md:text-5xl lg:w-10/12"
+              >
+                Hello Foodie!!! No More Wait Now❣️
+              </h1>
+              <form action="#" class="w-full mt-12" id="recipe-form">
+                <div
+                  class="relative flex p-1 rounded-full bg-white border border-yellow-200 shadow-md md:p-2"
+                >
+                  
+                  <input
+                    placeholder="Search Your Recipe here..."
+                    class="w-full p-4 rounded-full"
+                    type="text"
+                  />
+                  <button
+                    type="submit"
+                    title="Go For It"
+                    class="ml-auto py-3 px-6 rounded-full text-center transition bg-gradient-to-b from-pink-200 to-blue-300 hover:to-red-300 active:from-green-400 focus:from-pink-300 md:px-12"
+                  >
+                    <span class="hidden text-yellow-900 font-semibold md:block">
+                      Search
+                    </span>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="w-5 mx-auto text-yellow-900 md:hidden"
+                      fill="currentColor"
+                      class="bi bi-search"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"
+                      />
+                    </svg>
+                  </button>
+                </div>
+              </form>
+              <p class="mt-9 md:text-4xl text-slate-900 lg:w-100">
+                Wizardry, magic, renaissance and great food combine to create the enchanting environment known as <br><span class="md:text-6xl text-orange-500">Sorcerer’s Kitchen™. </span>
+                
+              </p>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+      <div class="recipes-list flex flex-wrap items-center justify-evenly py-[5rem] gap-6">
+
+      </div>
+    </div>
+    <!-- Loader -->
+    
+    
+      <div class="loader loader-container hidden fixed top-0 left-0 w-screen h-screen flex justify-center items-center bg-black z-[100] opacity-90">
+        <div class="text">
+            <svg version="1.1" id="L7" xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 100"
+                enable-background="new 0 0 100 100" xml:space="preserve">
+                <path fill="#fff" d="M31.6,3.5C5.9,13.6-6.6,42.7,3.5,68.4c10.1,25.7,39.2,38.3,64.9,28.1l-3.1-7.9c-21.3,8.4-45.4-2-53.8-23.3
+            c-8.4-21.3,2-45.4,23.3-53.8L31.6,3.5z">
+                    <animateTransform attributeName="transform" attributeType="XML" type="rotate" dur="2s"
+                        from="0 50 50" to="360 50 50" repeatCount="indefinite" />
+                </path>
+                <path fill="#fff" d="M42.3,39.6c5.7-4.3,13.9-3.1,18.1,2.7c4.3,5.7,3.1,13.9-2.7,18.1l4.1,5.5c8.8-6.5,10.6-19,4.1-27.7
+            c-6.5-8.8-19-10.6-27.7-4.1L42.3,39.6z">
+                    <animateTransform attributeName="transform" attributeType="XML" type="rotate" dur="1s"
+                        from="0 50 50" to="-360 50 50" repeatCount="indefinite" />
+                </path>
+                <path fill="#fff" d="M82,35.7C74.1,18,53.4,10.1,35.7,18S10.1,46.6,18,64.3l7.6-3.4c-6-13.5,0-29.3,13.5-35.3s29.3,0,35.3,13.5
+            L82,35.7z">
+                    <animateTransform attributeName="transform" attributeType="XML" type="rotate" dur="2s"
+                        from="0 50 50" to="360 50 50" repeatCount="indefinite" />
+                </path>
+            </svg></div>
+    </div> 
+  </body>
+</html>
