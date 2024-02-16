@@ -4,6 +4,8 @@ This is a project which fetches your Favourite Recipe according to your taste.
 &
 Welcome to the Sorcerer's Kitchen, a magical project that brings the world of culinary delights to your fingertips! This web application is built using HTML, CSS, and JavaScript, with additional enhancements from Material UI and Tailwind CSS for a visually appealing and responsive design. The project utilizes wireframing techniques, API fetching, and specifically fetches recipes via the Edamam API, displaying them elegantly using cards.
 
+### Deployed Link
+   https://yadavharsh01.github.io/Sorcerer-s-Kitchen-Project/
 ## Tech Stack
 
 - **HTML**: Provides the structure for the web page.
